@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width: auto;
+}
+
+::-webkit-scrollbar {
+    width: 25px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #06dee1, #79ff6c);
+    border-radius: 3px;
+}
+
+.nav {
+    height: 65px;
+    background-color: #9dcaf7;
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    float: left;
+    font-weight: 600;
+
+}
+
+.nav .logo {
+    float: left;
+    width: 20%;
+
+
+}
+
+.nav .logo img {
+    height: 65px;
+    width: 100px;
+    margin-left: 30%;
+}
+
+.nav ul li {
+    float: left;
+    /* padding: 0 20px; */
+    margin-left: 20px;
+
+
+}
+
+.nav ul li a {
+    color: black;
+    line-height: 65px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px grey;
+}
+
+.cover {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#transparentSlika1 {
+    margin-top: -175px;
+
+}
+
+#transparentSlika2 img {
+    height: 350px;
+    width: 550px;
+
+    float: right;
+    margin-top: -370px;
+
+}
+
+#dobrodoslica {
+    text-align: center;
+
+    text-shadow: 1px 1px grey;
+    font-family: sans-serif;
+}
+
+#linija {
+
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 90vh;
+    border-radius: 0.2px;
+
+}
+
+.kartice {
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 3px;
+}
+
+.kartice h2 {
+    margin-bottom: 50px;
+}
+
+.kartice img {
+    width: 100%;
+    width: 300px;
+}
+
+.kartice .card {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 5px;
+}
+
+.product {
+    background-color: #e1ebf1;
+    height: 700px;
+    padding: 40px 15px;
+    display: none;
+
+}
+
+.product .product-img img {
+    height: 450px;
+    width: 730px;
+    margin: auto;
+    display: block;
+}
+
+.cenaIBoja {
+    width: 1600px;
+    margin-top: -50px;
+    padding: 100px;
+    text-align: center;
+    margin-left: 500px;
+
+}
+
+
+
+.cena {
+    display: block;
+    float: left;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 4px;
+    font-family: sans-serif;
+
+}
+
+.product .pagination {
+    float: left;
+
+}
+
+
+.product .pagination button {
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.product .pagination button.active {
+    animation: activeButton 1s linear alternate infinite;
+}
+
+@keyframes activeButton {
+    50% {
+        transform: scale(0.6);
+    }
+}
+
+
+/* DRUGA */
+
+
+.product1 {
+    background-color: #e1ebf1;
+    height: 700px;
+    padding: 40px 15px;
+    display: none;
+}
+
+.product1 .product-img1 img {
+    height: 450px;
+    width: 730px;
+    margin: auto;
+    display: block;
+}
+
+.cenaIBoja1 {
+    width: 1600px;
+    margin-top: -50px;
+    padding: 100px;
+    text-align: center;
+    margin-left: 500px;
+
+}
+
+
+
+.cena1 {
+    display: block;
+    float: left;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 4px;
+    font-family: sans-serif;
+
+}
+
+.product1 .pagination1 {
+    float: left;
+
+}
+
+
+.product1 .pagination1 button {
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.product1 .pagination1 button.active {
+    animation: activeButton 1s linear alternate infinite;
+}
+
+@keyframes activeButton {
+    50% {
+        transform: scale(0.6);
+    }
+}
+
+
+/* TRECA */
+
+
+
+.product2 {
+    background-color: #e1ebf1;
+    height: 700px;
+    padding: 40px 15px;
+    display: none;
+}
+
+.product2 .product-img2 img {
+    height: 450px;
+    width: 730px;
+    margin: auto;
+    display: block;
+}
+
+.cenaIBoja2 {
+    width: 1600px;
+    margin-top: -50px;
+    padding: 100px;
+    text-align: center;
+    margin-left: 500px;
+
+}
+
+
+
+.cena2 {
+    display: block;
+    float: left;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 4px;
+    font-family: sans-serif;
+
+}
+
+.product2 .pagination2 {
+    float: left;
+
+}
+
+
+.product2 .pagination2 button {
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.product2 .pagination2 button.active {
+    animation: activeButton 1s linear alternate infinite;
+}
+
+@keyframes activeButton {
+    50% {
+        transform: scale(0.6);
+    }
+}
+
+
+
+
+form {
+    margin-left: 650px;
+    margin-top: -40px;
+}
+
+
+
+
+#linija1 {
+    display: block;
+    /* margin-top: 150px; */
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 90vh;
+}
+
+#arrow {
+    height: 100px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin-top: -60px;
+    display: none;
+}
+
+/*brends*/
+
+.brends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    width: 90%;
+    margin-left: 80px;
+}
+
+.brends img {
+    max-width: 150px;
+    max-height: 80px;
+    transform-origin: center;
+    transform: perspective(800px) rotateY(20deg);
+    transition: 0.5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+.brends:hover img {
+    opacity: 0.1;
+}
+
+.brends img:hover {
+    transform: perspective(100px) rotateY(20deg);
+    opacity: 1;
+}
+
+
+
+
+
+/*FOOTER*/
+.footer {
+    background-color: #333;
+    color: gray;
+    height: 400px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.footer .footer-content {
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+
+}
+
+.footer .footer-content h1,
+h2 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.footer .footer-content .about h1 span {
+    color: red;
+}
+
+.footer .footer-content .about p {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+.footer .footer-content .about .socials a {
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    color: gray;
+    transition: all .3s;
+}
+
+.footer .footer-content .about .socials a:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+    color: gray;
+}
+
+
+
+.footer .footer-content .links ul a:hover {
+    color: white;
+    padding-left: 15px;
+    transition: all .3s;
+}
+
+.footer .footer-content .contact-form form {
+    display: flex;
+    flex-direction: column
+}
+
+.footer .footer-content .contact-form .contact-input {
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .7rem 1.2rem;
+    resize: none;
+    border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus {
+    background: #1a1a1a;
+}
+
+.footer .footer-content .contact-form form .btn-big {
+    width: 100px;
+    height: 50px;
+    background-color: turquoise;
+    border-radius: 7px;
+}
+
+.footer .footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0px;
+    top: 100%;
+}
+
+@media only screen and (max-width: 934px) {
+    .footer {
+        height: auto;
+    }
+
+    .footer .footer-content {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .footer .footer-content .contact-form {
+        padding-bottom: 90px;
+    }
+
+    .footer .footer-content .contact-form form .btn-big {
+        width: 100%;
+    }
+
+
+
+}
